@@ -40,10 +40,48 @@ p{
 
 p2{
     font-family: 'Franklin Gothic';
-    font-size: 25px;
+    font-size: 30px;
     border: 4px black solid;
     width: 500px;
     display: block;
   margin-left: auto;
   margin-right: auto;
+  
 }
+#random_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+#btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic';
+  font-size: 30px;
+  border: 4px black solid;
+  width: 500px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px; 
+
+}
+
+#topBtn {
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic';
+  font-size: 30px;
+  border: 4px black solid;
+  width: 500px;
+margin-top: 25px;
+}
+
+#topBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
